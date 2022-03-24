@@ -24,10 +24,12 @@ class _DashboardPageState extends State<DashboardPage> {
       ),
       body: SafeArea(
           child: Container(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(15),
         child: Column(
           children: [
-            CupertinoSearchTextField(),
+            CupertinoSearchTextField(
+              borderRadius: BorderRadius.circular(20),
+            ),
           ],
         ),
       )),
